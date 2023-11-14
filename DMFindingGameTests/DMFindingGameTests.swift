@@ -10,12 +10,12 @@ import XCTest
 
 final class DMFindingGameTests: XCTestCase {
     
-    var viewController: DMFindingGameViewController!
+    var viewController: GameViewController!
     
     override func setUp() {
         super.setUp()
         
-        viewController = DMFindingGameViewController()
+        viewController = GameViewController()
     }
     
     override func tearDown() {
