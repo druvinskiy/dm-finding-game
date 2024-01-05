@@ -25,7 +25,7 @@ class GameViewController: UIViewController {
         
     }
     
-    func generateRandomLetters(numLetters: Int) -> [String] {
+    func generateNextLetter(numLetters: Int) -> [String] {
         return []
     }
     
